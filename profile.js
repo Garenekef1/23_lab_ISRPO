@@ -23,7 +23,11 @@ profileForm.addEventListener("submit", (event) => {
 
   message.textContent = "Данные сохранены";
   message.style.color = "#15803d";
-  result.textContent = "";
+  result.innerHTML =
+    "Имя: " + name + "<br>" +
+    "Возраст: " + age + "<br>" +
+    "Город: " + city + "<br>" +
+    "Хобби: " + hobby;
 });
 
 clearBtn.addEventListener("click", () => {});
