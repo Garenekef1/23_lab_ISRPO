@@ -1,1 +1,1 @@
-console.log("calculator placeholder");
+console.log("Раздел calculator подготовлен");
