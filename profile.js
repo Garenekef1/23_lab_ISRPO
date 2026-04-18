@@ -30,4 +30,8 @@ profileForm.addEventListener("submit", (event) => {
     "Хобби: " + hobby;
 });
 
-clearBtn.addEventListener("click", () => {});
+clearBtn.addEventListener("click", () => {
+  profileForm.reset();
+  message.textContent = "";
+  result.textContent = "";
+});
